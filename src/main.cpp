@@ -1,6 +1,9 @@
 #include <iostream>
+#include "../test/tester.h"
+
+using namespace std;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Tester Tester;
     return 0;
 }
